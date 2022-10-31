@@ -1,11 +1,42 @@
 ul li {
     list-style-type: none;
+
 }
 
 @media screen and (min-width: 365px) and (max-width: 890px){
-.nav-links{
-    border: gray 3px solid;
-}
+    body {
+
+    }
+    h1 {
+        display: flex;
+justify-content: center;
+    }
+    ul li {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-grow: 1;
+        border: white solid;
+        background-color: gray;
+
+    }
+    .alert-info-hidden-on-desktop {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        padding: 20px;
+        border:  solid 3px;
+        background-color: cadetblue;
+    }
+        .header-img {
+            display: flex;
+            justify-content: center;
+                width: 80px;
+            height: 200px;
+            margin: auto;
+
+
+        }
 }
 
 @media screen and (min-width: 891px) and (max-width: 1500px){
