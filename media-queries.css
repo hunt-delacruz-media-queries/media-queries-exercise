@@ -5,37 +5,40 @@ ul li {
 
 @media screen and (min-width: 365px) and (max-width: 890px){
     body {
-
     }
+
     h1 {
         display: flex;
-justify-content: center;
+        justify-content: center;
     }
-    ul li {
+    ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li {
         display: flex;
         justify-content: center;
-        padding: 20px;
-        flex-grow: 1;
-        border: white solid;
-        background-color: gray;
+        padding: 10px;
+        border: white solid 5px;
+        background-color: lightgray;
+        align-items: stretch;
 
     }
     .alert-info-hidden-on-desktop {
         display: flex;
         justify-content: center;
-        flex-grow: 1;
-        padding: 20px;
+        margin:auto ;
+        padding: 10px;
         border:  solid 3px;
-        background-color: cadetblue;
+        background-color:rgb(203,255,255) ;
     }
         .header-img {
             display: flex;
             justify-content: center;
-                width: 80px;
-            height: 200px;
             margin: auto;
-
-
+            flex-direction: column;
         }
 }
 
