@@ -4,17 +4,17 @@ ul li {
 }
 
 @media screen and (min-width: 365px) and (max-width: 890px){
-    body {
-    }
 
     h1 {
+        font-size: xxx-large;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
     ul{
         display: flex;
         flex-direction: column;
-
+        padding: 0;
     }
 
     li {
@@ -24,7 +24,6 @@ ul li {
         border: white solid 5px;
         background-color: lightgray;
         align-items: stretch;
-
     }
     .alert-info-hidden-on-desktop {
         display: flex;
